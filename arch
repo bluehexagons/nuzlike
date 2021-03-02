@@ -1,0 +1,127 @@
+damage/etc sent in packets
+each kind of packet has certain expected values
+some moves send multiple packets of damage (like a multi-hit move)
+
+traits listen for types of packets
+items/abilities can listen for types of packets
+
+composite damage? damage gets reduced by all applicable reductions
+
+ability packet:
+  accuracy
+  damage types
+  damage
+  source
+  target
+  crit
+
+damage packet:
+  accuracy
+  evasion
+  damage types
+  damage
+  boost (plus)
+  block (minus)
+  armor (armor+)
+  weakness (armor-)
+  amplification (+percent)
+  reduction (-percent)
+  source
+  target
+  crit (percent)
+  conditions
+
+conditions:
+  stun like Darkest Dungeon? (incl. stunlock resistance)
+  burn like Pokemon?
+  magic damage DoT (blight?)
+  physical damage DoT (bleed?)
+  death's door? sometimes?
+    on death's door, monster gets swapped back?
+    on faint, chance to survive?
+    small chance to immediately die, but wounds may require healing items to be used immediately?
+    special healing items for wounds?
+    items that allow being KOed instead of dying?
+
+    death's door chance on one-turn kill? incapacitated?
+
+catching:
+  only consume on success? consume after fight ends?
+  only allow catching when a single target is left?
+  different capture devices (?) for different scenarios, or use similar but scaling in quality (pokeball/greatball/ultraball)?
+    make it like pokemon, with both? let player build a capture device at cost?
+
+
+
+
+
+
+
+
+
+
+hp - str
+mana - int
+armor - agi
+magResist - n/a
+amp - int
+damage - primary stat
+
+speed - agi
+attackSpeed - agi
+castSpeed - int
+itemSpeed - str
+
+attunement - primary stat (STAB)
+
+stun resist - str
+bleed resist - str
+blight resist - agi
+burn resist - agi
+slow resist - agi
+confuse resist - int
+paralysis resist - int
+
+stun: can't perform action next turn (allow switch? stay stunned 1 turn if brought back out?)
+bleed/blight†: damage over time for X turns
+burn: composite damage over time, reduced physical damage for X turns
+slow*: always act last (first slowed will act before most recent slowed)
+confuse*: chance to hurt self and deal reduced damage (magic doesn't hurt self? bigger chance to fail?) if using move for X turns
+paralysis: 1 move will fail in next X turns, chance each turn to act last
+frenzy*: chance to attack wrong target (never ally) for X turns, disables support abilities
+
+soaked*: reduces effectiveness of fire moves for X turns; electric moves will short-circuit; water moves buffed
+singed*: removed on use of water move; 
+
+* remove on swap
+† triggers after swap
+
+type interactions are more monster-specific
+  fire types may resist water, not be weak to, etc (for example)
+  special passive status effects caused by typed moves will modify other typed moves (like soaked, singed)
+
+
+types:
+fire
+water
+grass/leaf..?
+ice
+physical
+spell
+
+
+
+Essence values
+Gain like Pokemon EVs
+Can use an Essence Shifter to extract EVs from monsters and apply them to other monsters
+Weak essences are gained through combat, can be extracted
+Strong essences are added using an Essence Shifter, cannot be extracted but can be destroyed
+Essence values go into individual stats (hp, mana, armor, etc) instead of attributes (Agi, Int, Str)
+
+
+Berry bushes
+
+
+# of monster ability/item slots can be increased with skill points?
+Evolve using skill points? Maybe requires a few?
+Can apply skill points mid-battle (learned moves can replace old ones or fill empty slots)

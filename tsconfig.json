@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "removeComments": false,
+        "preserveConstEnums": true,
+        "out": "./dist/main.js",
+        "sourceMap": true,
+        "newLine": "LF",
+        "target": "es2015"
+    },
+    "files": [
+        "main.ts"
+    ]
+}
