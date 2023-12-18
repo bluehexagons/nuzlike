@@ -28,12 +28,7 @@ and tried to shoehorn into this codebase.
 
 # Artwork
 
-Uses free artwork from hyptosis, according to the file names.
-It may have been this set:
-https://opengameart.org/content/lots-of-hyptosis-tiles-organized
-
-The graphics were intended to be replaced, so I don't have a record
-of what I used.
-
-Some other images in this repo were created by Ugvts for another project
-of mine, and are licensed as CC-BY-NC-SA.
+* Hyptosis tiles - https://opengameart.org/content/lots-of-hyptosis-tiles-organized
+* Stella by Wind astella - https://opengameart.org/content/stella
+* Rich by Wind astella - https://opengameart.org/content/rick
+* Toen's Medieval Strategy Sprite Pack - https://opengameart.org/content/toens-medieval-strategy-sprite-pack-v10-16x16
