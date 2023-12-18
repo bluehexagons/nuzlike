@@ -13,6 +13,13 @@ WASD - move
 E - interact
 
 
+# Features
+
+This is a from-scratch sprite-based engine built in Canvas2D,
+supporting animations and layering. It uses basic optimization
+strategies to selectively repaint changed portions of the screen.
+
+
 # Artwork
 
 Uses free artwork from hyptosis, according to the file names.
