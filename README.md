@@ -11,3 +11,16 @@ Experience at https://bluehexagons.github.io/nuzlike/dist/index.html
 WASD - move
 
 E - interact
+
+
+# Artwork
+
+Uses free artwork from hyptosis, according to the file names.
+It may have been this set:
+https://opengameart.org/content/lots-of-hyptosis-tiles-organized
+
+The graphics were intended to be replaced, so I don't have a record
+of what I used.
+
+Some other images in this repo were created by Ugvts for another project
+of mine, and are licensed as CC-BY-NC-SA.
