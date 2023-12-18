@@ -22,6 +22,9 @@ strategies to selectively repaint changed portions of the screen.
 There is a prototype of a simple dialog system allowing multiple choices,
 and the ability to cut small trees to pass through them.
 
+bash.ts is a from-scratch bash interpreter I built for another project
+and tried to shoehorn into this codebase.
+
 
 # Artwork
 
