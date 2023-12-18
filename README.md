@@ -19,6 +19,9 @@ This is a from-scratch sprite-based engine built in Canvas2D,
 supporting animations and layering. It uses basic optimization
 strategies to selectively repaint changed portions of the screen.
 
+There is a prototype of a simple dialog system allowing multiple choices,
+and the ability to cut small trees to pass through them.
+
 
 # Artwork
 
